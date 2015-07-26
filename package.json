@@ -1,0 +1,23 @@
+{
+  "name": "socket-requests",
+  "version": "0.1.0",
+  "description": "Multi-response requests using socket.io",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/ -d lib/ --stage 0",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opatut/socket-requests"
+  },
+  "bugs": {
+    "url": "https://github.com/opatut/socket-requests/issues"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.5"
+  }
+}
